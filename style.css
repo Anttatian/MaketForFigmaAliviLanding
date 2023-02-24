@@ -375,7 +375,7 @@ h1 {
     width: 580px;
     height: 158px;
     position: absolute;
-    top: 2897px;
+    top: 290px;
     left: 207px;
     font-size: 50px;
     font-weight: 700;
@@ -385,13 +385,13 @@ h1 {
 }
 
 .community_text-under_h2 {
-    width: 550px;
+    width: 600px;
     height: 39px;
     position: absolute;
-    top: 3088px;
+    top: 490px;
     left: 207px;
     color: #fff;
-    font-size: 25px;
+    font-size: 24px;
     font-family: 'Caveat', cursive;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
@@ -399,14 +399,15 @@ h1 {
 }
 
 .community_button {
-    width: 240px;
+    width: 260px;
     height: 65px;
     position: absolute;
-    top: 3184px;
+    top: 597px;
     left: 207px;
     border-radius: 4px;
     padding: 20px 50px;
     background-color: rgba(1, 153, 109, 1);
+    border: 1px solid #01996D;
 }   
 
 .community_button_link {
@@ -423,17 +424,27 @@ h1 {
     width: 895.84px;
     height: 516.11px;
     position: absolute;
-    top: 2816px;
+    top: 229px;
     left: 818px;
     border-radius: 16.33px;
 }
 
-.arrow {
-    width: 80.85px;
-    height: 80.85px;
+.arrow_2 {
+    width: 37px;
+    height: 24px;
     color: rgba(255, 255, 255, 1);
     position: absolute;
-/*НЕ ДОДЕЛАН*/
+    top: 217px;
+    left: 410px;
+}
+
+.arrow_1 {
+    width: 100px;
+    height: 100px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 240px;
+    left: 440px;
 }
 
 .pricing_text {
@@ -505,49 +516,139 @@ h1 {
     box-shadow: 0px 0px 11px rgba(122,122,122,0.5);
 }
 
+.pricing_card_1 {
+    width: 130.54px;
+    height: 23.12px;
+    position: absolute;
+    top: 22.64px;
+    left: 83.32px;
+    font-family: 'Caveat', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14.49px;
+}
+
+hr {
+    width: 110.54px;
+    position: absolute;
+    top: 53.47px;
+    left: 83.32px;
+}
+
+.pricing_image-face-mini {
+    width: 79.73px;
+    height: 84.15px;
+    position: absolute;
+    top: 80.28px;
+    left: 103.2px;
+    background-color: rgba(1, 153, 109, 0.2);
+    border-radius: 50%;
+}
+
+.pricing_name {
+    width: 41.03px;
+    height: 18.65px;
+    position: absolute;
+    top: 175.02px;
+    left: 125.6px;
+    font-family: 'Caveat', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11.94px;
+    font-weight: 400;
+    line-height: 18.74px;
+}
+
+.pricing_card_2 {
+    width: 180px;
+    height: 24.96px;
+    position: absolute;
+    top: 193.9px;
+    left: 61px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    color: #000;
+    font-size: 15.93px;
+    line-height: 25.01px;
+}
+
+.pricing_card_3 {
+    width: 180px;
+    height: 70px;
+    position: absolute;
+    top: 215px;
+    left: 61px;
+    font-family: 'Caveat', cursive;
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+    font-size: 10.62px;
+    font-weight: 400;
+    padding: 5px 15px;
+} 
 
 .footer {
+    width: 1930px;
+    height: 654px;
     position: absolute;
     top: 4445px;
     left: 0;
     background-color: #245852;
+    display: flex;
+    flex-direction: column;
     color: #fff;
     font-family: 'Caveat', cursive;
     font-family: 'Open Sans', sans-serif;
-    width: 1920px;
-    height: 654px;
-    padding-left: 275px;
-    display: flex;
-    flex-direction: column;
 }
 
 .footer_logo {
+    width: 108px;
+    height: 55px;
+    position: absolute;
     left: 275px;
-    top: 75px;
-    bottom: 504px;
-    font-family: 'Caveat', cursive;
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
+    top: 65px;
     font-weight: 900;
     font-size: 40px;
     line-height: 55px;
 }
 
 .footer_menu {
-    list-style-type: none;
-    font-family: 'Caveat', cursive;
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 25px;
-    line-height: 30px;
-    left: 275px;
     padding-inline-start: 0;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    color: #fff;
+    font-family: 'Caveat', cursive;
+    font-family: 'Open Sans', sans-serif;
+    list-style-type: none;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
 }
 
-.footer_menu_link {
-    position: relative;
+.footer_menu-point-1 {
+    position: absolute;
+    top: 210px;
+    left: 275px;
+}
+
+.footer_menu-point-2 {
+    position: absolute;
+    top: 300px;
+    left: 275px;
+}
+
+.footer_menu-point-3 {
+    position: absolute;
+    top: 390px;
+    left: 275px;
+}
+
+.footer_menu-point-4 {
+    position: absolute;
+    top: 480px;
+    left: 275px;
+}
+.footer_menu-link {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Caveat', cursive;
+    font-family: 'Open Sans', sans-serif;
 }
